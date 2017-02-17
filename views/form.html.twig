@@ -7,18 +7,21 @@
 </head>
 <body>
     <div class="container">
-        <h1>Find and replace words!</h1>
+        <h1>Frequency Finder!</h1>
         <div class="form-group">
             <form action="/view_results" method="post">
                 <label for="sentence">Enter a sentence:</label>
-                <input type="text" name="sentence" class="form-control">
+                <input id="sentence" type="text" name="sentence" class="form-control" required="">
 
                 <label for="search_word">Search for a word:</label>
-                <input type="text" name="search_word" class="form-control">
+                <input type="text" name="search_word" class="form-control" required="">
 
-                <button type="submit" class="btn btn-success">submit</button>
+                <button id="submit" type="submit" class="btn btn-success">Submit</button>
+
             </form>
         </div>
+
+        <img id="image" src='http://www.clker.com/cliparts/c/8/6/a/11949850601793037291magnifing_glass_gino_riv_01.svg.med.png' alt='Magnifing Glass clip art'/>
     </div>
 </body>
 </html>
