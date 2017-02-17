@@ -1,23 +1,76 @@
 body {
     font-size: 2em;
+    margin-top: 10%;
+    font-family: 'Cinzel Decorative', cursive;
+    background-image: url('../img/wall.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
+.corral {
+    background-color: 	#00d2da;
+    border: solid 5px #008695;
+    width: 60%;
+    height: 70%;
+    border-radius: 25%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 5%;
+}
+
+#description {
+    margin: 0 auto;
+    list-style-type: none;
+    padding-left: 0;
+    width: 60%;
+    padding-top: 5%;
+}
+
+li {
+    font-size: 1.1em;
+}
+
+p {
+    margin-top: 5%;
+}
+
+form {
+    padding-top: 5%;
+}
 
 .forms {
     margin-top: 10%;
     margin-left: 10%;
+
 }
 
 .form-control {
-    width: 45%
+    width: 75%;
+    margin: 0 auto;
 }
+
 
 #sentence {
     margin-bottom: 2.5%;
 }
 
+#word {
+    width: 60%;
+}
+
 #image {
-    float: right;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+#result {
+    margin: -.5em;
 }
 
 
