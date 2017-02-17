@@ -19,6 +19,11 @@
             return $this->search_for_word;
         }
 
+        static function deleteAll()
+        {
+            $_SESSION['input'] = array();
+        }
+
 
         function CountRepeats($string_input, $search_for_word)
         {
