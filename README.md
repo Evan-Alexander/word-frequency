@@ -49,10 +49,10 @@ This project demonstrates building an app using PHPUnit, Silex and Twig framewor
 
 | Sentence              | Find Word      |  Occurrences | Description of Why |
 |--------------|----------------------------|-----------|--------------------|
-| Hello world.         |     world           |    1      | Small sentence, word occurs once. |
-|  Hello Jason.      | jason          |  1       | Make sure capital vs. lowercase  will not be an issue. |
-|  He said he would be happy.  |     he       |      2    | Larger sentence, word occurs twice with upper and lowercases. |
-| My dad is the best dad.  Dad's are the best.  | dad | 3 |Two sentences, word occurs three times with apostrophe added.|
+| Hello world.         |     world           |    1      | lowercase vs. lowercase. |
+|  Hello Jason.      | jason          |  1       | capital vs. lowercase   |
+|  He said he would be happy.  |     he       |      2    | word occurs twice with upper and lowercases. |
+| My dad is the best dad.  Dad's are the best.  | dad | 3 | word occurs three times with apostrophe added.|
 
 
 
