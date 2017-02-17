@@ -2,6 +2,22 @@
 
     class RepeatCounter
     {
+        private $string_input;
+        private $search_for_word;
+
+        function setStrings($string_input, $search_for_word)
+        {
+            $this->string_input = $string_input;
+            $this->search_for_word = $search_for_word;
+        }
+
+        function getString(){
+            return $this->string_input;
+        }
+
+        function getSearchWord(){
+            return $this->search_for_word;
+        }
 
 
         function CountRepeats($string_input, $search_for_word)
