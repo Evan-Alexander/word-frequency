@@ -52,7 +52,7 @@ This project demonstrates building an app using PHPUnit, Silex and Twig framewor
 | Hello world.         |     world           |    1      | Small sentence, word occurs once. |
 |  Hello Jason.      | jason          |  1       | Make sure capital vs. lowercase  will not be an issue. |
 |  He said he would be happy.  |     he       |      2    | Larger sentence, word occurs twice with upper and lowercases. |
-| My dad is the best dad.  Dad's are the best.  | dad | 3 |Two sentences, word occurs three times.|
+| My dad is the best dad.  Dad's are the best.  | dad | 3 |Two sentences, word occurs three times with apostrophe added.|
 
 
 
