@@ -1,0 +1,39 @@
+body {
+    
+    font-size: 2em;
+}
+
+.forms {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.form-control {
+    width: 33%
+}
+
+.show_contacts {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+/***********
+BUTTONS
+************/
+
+
+
+#clear {
+    transition: .5s ease;
+}
+
+#clear:hover {
+    transform: scale(1.05);
+}
+
+#submit {
+    transition: .5s ease;
+}
+#submit:hover {
+    transform: scale(1.05);
+}
