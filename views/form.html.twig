@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" charset="utf-8">
+    <link href="{{ app.request.getbaseurl }}/assets/css/styles.css" rel="stylesheet" type="text/css">
+    <title>Word Frequency</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Find and replace words!</h1>
+        <div class="form-group">
+            <form action="/view_results" method="post">
+                <label for="sentence">Enter a sentence:</label>
+                <input type="text" name="sentence" class="form-control">
+
+                <label for="search_word">Search for a word:</label>
+                <input type="text" name="search_word" class="form-control">
+
+                <button type="submit" class="btn btn-success">submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
