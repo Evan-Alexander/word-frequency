@@ -1,14 +1,18 @@
 <?php
 
-    class wordFrequency
+    class RepeatCounter
     {
-        private $input_string;
-        private $input_search_word;
 
-        function findThisWord()
+
+        function CountRepeats($string_input, $search_for_word)
         {
-            
+            $search_for_word = strtoupper($search_for_word);
+            $string_input = strtoupper($string_input);
+            $find_occurences = substr_count($string_input, $search_for_word);
+            return $find_occurences;
+
         }
+
     }
 
 
