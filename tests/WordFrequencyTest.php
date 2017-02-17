@@ -46,5 +46,19 @@
            $this->assertEquals(2 , $result);
         }
 
+        function testapostrophe()
+        {
+            //Arrange
+           $test_RepeatCounter = new RepeatCounter;
+           $string_input = "My dad is the best dad.  Dad's are the best.";
+           $search_for_word = "dad";
+
+           //Act
+           $result = $test_RepeatCounter->CountRepeats($string_input, $search_for_word);
+
+           //Assert
+           $this->assertEquals(3 , $result);
+        }
+
     }
 ?>
