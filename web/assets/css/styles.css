@@ -1,7 +1,7 @@
 body {
-    
     font-size: 2em;
 }
+
 
 .forms {
     margin-top: 10%;
@@ -9,29 +9,25 @@ body {
 }
 
 .form-control {
-    width: 33%
+    width: 45%
 }
 
-.show_contacts {
-    margin-top: 5%;
-    margin-left: 10%;
+#sentence {
+    margin-bottom: 2.5%;
 }
+
+#image {
+    float: right;
+}
+
 
 /***********
 BUTTONS
 ************/
 
 
-
-#clear {
-    transition: .5s ease;
-}
-
-#clear:hover {
-    transform: scale(1.05);
-}
-
 #submit {
+    margin-top: 2.5%;
     transition: .5s ease;
 }
 #submit:hover {
