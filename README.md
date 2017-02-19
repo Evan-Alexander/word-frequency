@@ -53,6 +53,7 @@ This project demonstrates building an app using PHPUnit, Silex and Twig framewor
 |  Hello Jason.      | jason          |  1       | capital vs. lowercase   |
 |  He said he would be happy.  |     he       |      2    | word occurs twice with upper and lowercases. |
 | My dad is the best dad.  Dad's are the best.  | dad | 3 | word occurs three times with apostrophe added.|
+| Cats are in the cathedral. | cat | 0 |Tests for partial words. Answer should not recognize cats and cathedral. |
 
 
 
