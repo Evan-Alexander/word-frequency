@@ -47,16 +47,13 @@ This project demonstrates building an app using PHPUnit, Silex and Twig framewor
 
 * Behavior given a word, finds all occurrences of word in a sentence.
 
-| Sentence              | Find Word      |  Occurrences | Description of Why |
-|--------------|----------------------------|-----------|--------------------|
-| Hello world.         |     world           |    1      | lowercase vs. lowercase. |
-|  Hello Jason.      | jason          |  1       | capital vs. lowercase   |
-|  He said he would be happy.  |     he       |      2    | word occurs twice with upper and lowercases. |
+| Sentence    | Find Word |  Occurrences | Description of Why |
+|--------------|---------------|-----------|--------------------|
+| Hello world. |     world | 1 | lowercase vs. lowercase. |
+|  Hello Jason.  | jason  |  1 | capital vs. lowercase   |
+|  He said he would be happy.  |  he  |  2  | word occurs twice with upper and lowercases. |
 | My dad is the best dad.  Dad's are the best.  | dad | 3 | word occurs three times with apostrophe added.|
 | Cats are in the cathedral. | cat | 0 |Tests for partial words. Answer should not recognize cats and cathedral. |
-
-
-
 
 * Phase 4 - Initial Silex framework with "Hello" on home page
 * Phase 5 - Twig template with a form that accepts a string and returns the result.
