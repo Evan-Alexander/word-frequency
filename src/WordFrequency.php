@@ -35,7 +35,6 @@
                     ++$counter;
                 }
             }
-            var_dump($counter);
              return $counter;
         }
     }
